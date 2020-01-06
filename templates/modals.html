@@ -1,0 +1,113 @@
+<!-- ================ LOGIN FORM MODAL =========================================================== -->
+
+<div id="login_modal" class="modal">
+    <div class="modal-content">
+        <span class="hide_modal_button">&times;</span>
+        <span class="header_in_form">Login</span>
+
+        <div>
+            <label>
+                <div>
+                    Login:
+                </div>
+                <input type="text" placeholder="Login goes here..." id="login_input">
+            </label>
+        </div>
+
+        <div>
+            <label>
+
+                <div>
+                    Password:
+                </div>
+                <input type="password" placeholder="Password goes here..." id="password_input">
+            </label>
+        </div>
+
+        <div>
+            <button id="login_button">Login</button>
+        </div>
+        <div id="error_login_div"></div>
+    </div>
+</div>
+
+<!-- ================ REGISTRATION FORM MODAL =========================================================== -->
+
+<div id="registration_modal" class="modal">
+    <div class="modal-content">
+        <span class="hide_modal_button">&times;</span>
+        <span class="header_in_form">Registration</span>
+
+        <div>
+            <label>
+                <div>
+                    Login:
+                </div>
+                <input type="text" placeholder="Login goes here..." id="login">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <div>
+                    Password #1:
+                </div>
+                <input type="password" placeholder="Password goes here..." id="password_one">
+
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <div>
+                    Password #2:
+                </div>
+                <input type="password" placeholder="Repeat password..." id="password_two">
+            </label>
+        </div>
+
+        <div>
+            <button id="register">Register</button>
+            <a href="#" id="help_link" title="Passwords must:
+-> be the same
+-> contain between 4-10 chars
+-> contain at least one lowercase letter
+-> contain only one capital letter
+-> contain only one digit
+-> contain only one special symbol(!@#$%^&*()_+=|)
+-> not contain whitespaces">
+
+                <i id="help_icon" class="fas fa-question-circle"></i>
+            </a>
+        </div>
+        <div id="error_registration_div"></div>
+    </div>
+</div>
+
+<!-- ================ RESIDENTS MODAL =========================================================== -->
+
+<div id="residents_modal" class="modal"></div>
+
+<!-- ================ LOGOUT MODAL =========================================================== -->
+
+<div id="logout_modal" class="modal">
+    <div class="modal-content">
+        <span class="header_in_form">You logged out</span>
+    </div>
+</div>
+
+<!-- ================ VOTE MODAL =========================================================== -->
+
+<div id="vote_modal" class="modal">
+    <div class="modal-content">
+        <span class="header_in_form">Thanks for Your vote! <i class="far fa-smile-beam"></i></span>
+    </div>
+</div>
+
+<!-- ================ STATISTICS MODAL =========================================================== -->
+
+<div id="statistics_modal" class="modal">
+    <div class="modal-content">
+        <span class="hide_modal_button">&times;</span>
+    </div>
+</div>

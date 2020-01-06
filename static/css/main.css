@@ -1,0 +1,77 @@
+body {
+    background-image: url(../img/background.png);
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+#main_div {
+    margin-top: 30px;
+}
+
+#planets_list {
+    color: #fff;
+    text-align: center;
+}
+
+#previous_page, #next_page {
+    visibility: hidden;
+}
+
+#error_registration_div, #error_login_div {
+    color: red;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+#help_icon {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#login_div {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-right: 15px;
+    color: #000;
+}
+
+.vote_column {
+    display: none;
+    border: 0;
+}
+
+button {
+    padding: 10px;
+    letter-spacing: 2px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #263EA9;
+    color: #fff;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+    opacity: 0.8;
+}
+
+button:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    background-color: #485FCB;
+}
+
+button:active {
+    background-color: #A0FA65;
+    color: #000;
+    outline:0;
+}
+
+button:disabled {
+    background-color: greenyellow;
+    transform: none;
+    opacity: 0.8;
+}
+
+#help_link:link {text-decoration: none; color: #000; cursor: default;}
+#help_link:hover {text-decoration: none; color: #000; cursor: default;}
+#help_link:visited {text-decoration: none; color: #000; cursor: default;}
+#help_link:active {text-decoration: none; color: #000; cursor: default;}

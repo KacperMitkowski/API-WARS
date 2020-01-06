@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS users;
+CREATE table users (
+  user_id SERIAL NOT NULL PRIMARY KEY,
+  username VARCHAR NOT NULL,
+  password VARCHAR NOT NULL
+);
+
+DROP TABLE IF EXISTS planet_votes;
+CREATE table planet_votes (
+  id SERIAL NOT NULL PRIMARY KEY,
+  planet_id INT NOT NULL,
+  planet_name VARCHAR NOT NULL,
+  user_id INT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,
+  submission_time TIMESTAMP WITHOUT TIME ZONE
+);

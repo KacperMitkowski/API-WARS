@@ -31,6 +31,6 @@ This is the project created during my education in Codecool.<br/>
 
 ## Screenshots:
 
-![alt text](https://github.com/KacperMitkowski/API-WARS/blob/master/api_wars_1.png) 
+![alt text](https://github.com/KacperMitkowski/API-WARS/blob/master/api-wars-1.png) 
 ![alt text](https://github.com/Karolzp/HEROS-battle-in-Java-and-JavaFx/blob/master/screenshots/Screenshot2.png)
 ![alt text](https://github.com/Karolzp/HEROS-battle-in-Java-and-JavaFx/blob/master/screenshots/Screenshot3.png)

@@ -31,6 +31,9 @@ This is the project created during my education in Codecool.<br/>
 
 ## Screenshots:
 
+All planets:
 ![alt text](https://github.com/KacperMitkowski/API-WARS/blob/master/screenshots/api_wars_1.png)
+Planet details:
 ![alt text](https://github.com/KacperMitkowski/API-WARS/blob/master/screenshots/api_wars_2.png)
+Registration form:
 ![alt text](https://github.com/KacperMitkowski/API-WARS/blob/master/screenshots/api_wars_3.png)

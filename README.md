@@ -31,4 +31,4 @@ This is the project created during my education in Codecool.<br/>
 
 ## Screenshots:
 
-![alt text](https://github.com/KacperMitkowski/API-WARS/blob/master/api_wars_1.png) 
+![alt text](https://github.com/KacperMitkowski/API-WARS/blob/master/screenshots/api_wars_1.png) 

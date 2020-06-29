@@ -7,9 +7,8 @@ This is a small web application that shows data about the Star Wars universe.
 This is the project created during my education in Codecool.<br/>
 **The goal was to:**
 * practice front-end skills:
-  * JavaScript
+  * HTML/CSS, JS
   * AJAX
-  * HTML/CSS
   * DOM manipulation
   * web design
 * store data (Login and voting informations) in a local database (PostgreSQL)
@@ -20,14 +19,10 @@ This is the project created during my education in Codecool.<br/>
 
 
 ## Used technology:
-* JavaScript
-* Flask (micro web framework for Python)
-* HTML
-* CSS
+* Flask 
+* Python (Postgres with Psycopg)
+* HTML, CSS (Bootstrap), JS
 * AJAX
-* Bootstrap
-* SQL
-* Psycopg (the most popular PostgreSQL database adapter for the Python)
 
 ## Screenshots:
 
